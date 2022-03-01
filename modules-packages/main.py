@@ -1,5 +1,5 @@
-import helper
+from helper import extract_lower, extract_upper
 
 name = "keith Thompson"
-print(f"Lowercase Letters: {helper.extract_lower(name)}")
-print(f"Uppercase Letters: {helper.extract_upper(name)}")
+print(f"Lowercase Letters: {extract_lower(name)}")
+print(f"Uppercase Letters: {extract_upper(name)}")
