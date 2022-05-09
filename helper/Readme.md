@@ -1,0 +1,1 @@
+curl -O <url> => download file to current directory
